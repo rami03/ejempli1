@@ -1,0 +1,15 @@
+/* pocicionamos la imgen pricipal de la pagina */
+.vecinos_balcon01{
+    /* margenes de la imagen */
+    padding: 15px 15px 15px 15px;
+    /* display y margin centrar imagen */
+    display: block;
+    margin: auto;
+    /* bordear los bordes */
+    border-radius: 20px;
+}
+
+.saber_de_ellos_casados{
+    display: flex;
+    justify-content: space-between;
+}

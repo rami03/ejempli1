@@ -1,0 +1,40 @@
+/* color fondo, letra tamaño y margenes  */
+
+html{
+    /* color de fondo */
+    background-color: rgba(133, 146, 142, 0.575);
+    /* tipo de letra */
+    font-family: sans-serif;
+    /* tamaño de la letra */
+    font-size: 16px;
+    /* margenes */
+    padding: 20px 20px 0px 20px;
+}
+
+/* Estilos de la pagina */
+/* tamano del header */
+header{
+    height: 10vh;
+}
+/* le damos tamaño y margen al logo */
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 10px 20px 20px 10px;
+}
+.barra_footer{
+    /* poner en posición fija */
+    position: fixed;
+    bottom: 0;
+    /* hacerlo del ancho de la pantalla */
+    width: 100%;
+    background-color: green;
+    /* bordes redondeados */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    left: 0;
+}
+
+
