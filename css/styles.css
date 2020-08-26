@@ -22,19 +22,23 @@ header{
     height: 50px;
     margin: 10px 20px 20px 10px;
 }
-.barra_footer{
+footer, .boton_saber_mas{
     /* poner en posición fija */
     position: fixed;
-    bottom: 0;
     /* hacerlo del ancho de la pantalla */
     width: 100%;
     background-color: green;
     /* bordes redondeados */
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: #fff;
     font-weight: bold;
+    /* Impotante para saltarse los margenes de html */
     left: 0;
+    /* centrar texto */
+    text-align: center;
+    /* color de la letra hay que darle una a la a */
+    color: rgb(255, 253, 253);
+    /* cuando hay position el boton delimita los margenes */
+    bottom: 0;
+    font-weight: bold;
 }
-
-

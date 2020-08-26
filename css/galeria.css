@@ -1,0 +1,13 @@
+.galeria{
+    /* poder poner columnas en las fotos */
+    display: flex;
+    /* hacerla mas flexible */
+    flex-wrap: wrap;   
+    width: 100%;
+    border-radius: 5px;
+}
+
+img{
+    width: 45%;
+    margin: 1%;
+}
